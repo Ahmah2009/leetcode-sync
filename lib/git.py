@@ -46,7 +46,3 @@ def check_dir_valid_repo_v2(dir_path):
     return git_command("status", path=dir_path) == 0
 
 
-"""
-git  -C /Users/ahmad/kitchen/leetcode add /Users/ahmad/kitchen/leetcode
-git  -C /Users/ahmad/kitchen/leetcode add /Users/ahmad/kitchen/leetcode
-"""
